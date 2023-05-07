@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.echo_auth {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.msg {
+    border: 2px solid #ff001d;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 15px;
+}

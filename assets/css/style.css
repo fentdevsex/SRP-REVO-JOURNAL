@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(190,190,190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+header .logo {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+}
+
+header.hide {
+    transform: translateY(-50px);
+}
+
+
+header nav ul li {
+    position: relative;
+    float: left;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #ffffff;
+    display: none;
+    text-decoration: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    text-decoration: none;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+    text-decoration: none;
+}
+
+table {
+    margin: 1px auto 0 auto;
+}
+
+.action {
+    text-align: center;
+    width: 25%;
+}
+
+.reason {
+    text-align: center;
+    width: 30%;
+}
+
+.player {
+    text-align: center;
+    width: 20%;
+}
+
+.admin {
+    text-align: center;
+    width: 20%;
+}
+
+.datatime {
+    text-align: center;
+    width: 15%;
+}
+
+.uniqueid {
+    text-align: left;
+}
+
+
+.echo_auth {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+.updlvl {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+.userstableadm {
+    margin:200px auto 0 auto;
+}
+
+.uniqueidadm {
+    text-align: left;
+    width: 0%;
+}
+
+.loginadm {
+    text-align: center;
+    width: 0%;
+}
+
+.statusadm {
+    text-align: center;
+    width: 0%;
+}
+
+.lvladm {
+    text-align: center;
+    width: 0%;
+}
+
+.updstatus {
+    position: absolute;
+    top: 170px;
+    left: 10px;
+}
